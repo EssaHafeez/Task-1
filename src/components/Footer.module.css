@@ -1,0 +1,27 @@
+.footer {
+  padding: 2rem 5vw;
+  border-top: 0.5px solid var(--clr-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: var(--clr-muted);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  font-size: 0.8rem;
+  color: var(--clr-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.links a:hover { color: var(--clr-text); }
